@@ -1,6 +1,6 @@
 namespace Chatbot
 {
-    public interface IReputacion
+    public interface ICalificable
     {
         float ValorReputacion { get; set; }
         int NumeroValoraciones { get; set; }

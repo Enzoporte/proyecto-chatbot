@@ -1,6 +1,6 @@
 namespace Chatbot
 {
-    public abstract class Usuario : IReputacion, IDatosPersonales, IInfoContacto
+    public abstract class Usuario : ICalificable, IDatosPersonales
     {
         public string NombreCompleto { get; set; }
         public int Cedula { get; set; }
@@ -8,5 +8,6 @@ namespace Chatbot
         public string CorreoElectronico { get; set; }
         public float ValorReputacion { get; set; }
         public int NumeroValoraciones { get; set; }
+        public float Calificacion { get; set;}
     }
 }

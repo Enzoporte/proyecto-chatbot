@@ -8,5 +8,7 @@ namespace Chatbot
         public string CorreoElectronico { get; set; }
         public float ValorReputacion { get; set; }
         public int NumeroValoraciones { get; set; }
+        public int TrabajosCompletados { get; set; }
+        public float Calificacion { get; set; }
     }
 }
